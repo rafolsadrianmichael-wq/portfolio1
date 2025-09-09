@@ -263,3 +263,23 @@ header nav ul li a:hover {
 .btn:hover {
   background: #005f87;
 }
+
+body {
+  margin: 20;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  background-color: #000;  /* keep your dark background */
+  color: white;            /* text color */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;      /* center text */
+}
+
+/* Optional: center the About Me section specifically */
+.about {
+  max-width: 800px; /* keep it readable */
+  padding: 20px;
+}
+
